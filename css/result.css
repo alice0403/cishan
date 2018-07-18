@@ -1,0 +1,15 @@
+.redColor{
+    color:#E5002F;
+}
+
+.btn{
+    width:3.25rem;
+    height:0.34rem;
+    margin:auto;
+    background-color: #E5002F;
+    border-radius:0.17rem;
+    color:#fff;
+    line-height:0.34rem;
+    font-size:0.14rem;
+    text-align: center  ;
+}

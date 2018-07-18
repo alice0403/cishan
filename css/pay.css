@@ -1,0 +1,107 @@
+.chooseMoney{
+    box-sizing: border-box;
+    width:100%;
+    padding-left:0.25rem;
+    padding-right:0.25rem;
+    margin-bottom:0.55rem;
+    color:#333;
+    font-size:0.14rem;
+    line-height:0.2rem;
+}
+
+
+
+.row{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.15rem;
+}
+
+.row>span{
+    display: inline-block;
+    width:1.02rem;
+    height:0.26rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.26rem;
+    border:1px solid #E5E5E5;
+    position:relative;
+}
+
+.selectedStyle{
+    width:0.165rem;
+    height:0.2rem;
+    position:absolute;
+    bottom:0;
+    right:0;
+    display:none;
+}
+
+.row>.select{
+    border-color:#E5002F;
+    color:#E5002F;
+}
+.select>img{
+    display:block;
+}
+
+
+.inputMoney{
+    width:1.6rem;
+    height:0.26rem;
+    /*line-height: 0.26rem;*/
+    box-sizing: border-box;
+    border:1px solid #E5E5E5;
+    padding:0 0.1rem;
+    position: relative;
+}
+
+.inputMoney input{
+    border:none;
+    outline: none;
+    width:1.1rem;
+}
+
+.inputSelect{
+    border-color:#E5002F;
+}
+
+.inputSelect>img{
+    display: block;
+}
+
+
+.btnCon{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:0.08rem 0.25rem;
+    border-top:1px solid #E6E6E6;
+    background-color: #fff;
+}
+.btn{
+    width:3.25rem;
+    height:0.34rem;
+    margin:auto;
+    background-color: #E5002F;
+    border-radius:0.17rem;
+    color:#fff;
+    line-height:0.34rem;
+    font-size:0.14rem;
+    text-align: center  ;
+}
+
+
+.textCon{
+    display:block;
+    margin:auto;
+    text-align: center;
+    font-size:0.14rem;
+    color:#333;
+    margin-top:0.16rem;
+    margin-bottom:0.31rem;
+}

@@ -1,0 +1,55 @@
+
+/*通用样式*/
+
+@font-face {
+    /* font-properties */
+    font-family: PingFangSC-Regular;
+    src:url('../font/PingFang Regular.ttf');
+}
+
+@font-face {
+    /* font-properties */
+    font-family: PingFang-Medium;
+    src:url('../font/PingFang Medium.ttf');
+}
+
+
+
+body{
+  padding:0;
+  margin:0;
+  font-family: PingFangSC-Regular;
+  font-size:0.16rem;
+  /*tap-highlight-color:transparent;*/
+  /*-webkit-tap-highlight-color:transparent;*/
+}
+
+p, ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+*{
+  margin:0; padding:0;
+}
+
+body, div, dl, dt, dd, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+.rt{
+  float:right;
+}
+
+.lf{
+  float:left;
+}
+
+.clear:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+

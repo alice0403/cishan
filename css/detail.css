@@ -1,0 +1,85 @@
+.textCon{
+    padding:0.11rem 0.1rem 0.1rem 0.15rem;
+    font-size:0.14rem;
+    line-height:0.24rem;
+}
+.redIcon{
+    display:inline-block;
+    width:0.04rem;
+    height:0.04rem;
+    background-color: #E7002F;
+    border-radius:0.04rem;
+    margin-bottom:0.03rem;
+    margin-right:0.1rem;
+}
+
+.line{
+    height:1px;
+    margin:0.06rem 0;
+    background-color:#F2F2F2;
+}
+.listCon{
+    margin:0 0.15rem;
+    margin-bottom: 0.5rem;
+    /*border:1px solid #DDDDDD;*/
+    /*border-radius:0.04rem;*/
+    /*box-shadow: 0rem 0rem 0.06rem 0rem rgba(221,221,221,1);*/
+    padding:0.13rem 0.13rem 0.16rem 0.15rem;
+    padding-left:0;
+    padding-right:0;
+    color:#333;
+    font-size:0.1rem;
+}
+.topTitle{
+    font-size:0.14rem;
+    line-height:0.2rem;
+    text-align: center;
+    font-weight:bold;
+    margin-bottom: 0.13rem;
+}
+
+.row{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.08rem;
+}
+
+.row>span:first-child{
+    width:0.5rem;
+    margin-right:0.1rem;
+    text-align:center;
+}
+
+.row>span:nth-child(2){
+    width:0.5rem;
+    margin-right:0.1rem;
+}
+
+.row>span:nth-child(3){
+    width:1.5rem;
+    /*text-align:center;*/
+}
+
+.btnCon{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:0.08rem 0.25rem;
+    border-top:1px solid #E6E6E6;
+    background-color: #fff;
+}
+.btn{
+    width:3.25rem;
+    height:0.34rem;
+    margin:auto;
+    background-color: #E5002F;
+    border-radius:0.17rem;
+    color:#fff;
+    line-height:0.34rem;
+    font-size:0.14rem;
+    text-align: center  ;
+}

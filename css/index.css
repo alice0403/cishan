@@ -1,0 +1,32 @@
+body{
+    padding-top:0.3rem;
+}
+.logo{
+    width:1.77rem;
+    height:0.34rem;
+    display:block;
+    margin:auto;
+    margin-bottom: 0.3rem;
+}
+
+.topTitle{
+    color:#333;
+    font-size:0.17rem;
+    line-height:0.24rem;
+    text-align: center;
+}
+.bottomCon{
+    position:relative;
+    background-color: #F2F2F2;
+    height:1.96rem;
+}
+
+.bottomTip{
+    text-align: center;
+    font-size:0.14rem;
+    line-height:0.2rem;
+    color:#333;
+    position:absolute;
+    top:1.33rem;
+    left:0.99rem;
+}
