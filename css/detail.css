@@ -1,5 +1,5 @@
 .textCon{
-    padding:0.11rem 0.1rem 0.1rem 0.15rem;
+    padding:0.56rem 0.1rem 0.1rem 0.15rem;
     font-size:0.14rem;
     line-height:0.24rem;
 }
@@ -82,4 +82,62 @@
     line-height:0.34rem;
     font-size:0.14rem;
     text-align: center  ;
+}
+
+.moneyDetail{
+    width:3.45rem;
+    height:0.86rem;
+    border-radius:0.04rem;
+    position:absolute;
+    left: 0.15rem;
+    top: 1.86rem;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0rem 0rem 0.06rem 0rem rgba(165, 165, 165, 0.24);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moneyDetail>div{
+    height:100%;
+    flex-grow:1;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+}
+
+.moneyDetail>div:nth-child(1)::after{
+    content:'';
+    width:0.01rem;
+    height:0.56rem;
+    background-color: #E5E5E5;
+    position:absolute;
+    left:50%;
+    top:0.15rem;
+}
+
+.moneyDetail>div>p:nth-child(1){
+    font-size:0.12rem;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:0.01rem;
+}
+
+.moneyDetail>div>p:nth-child(1)>span{
+    font-family: PingFangSC-Semibold;
+    font-size:0.18rem;
+    color:#FF4D4F;
+    margin-right:0.03rem;
+    position:relative;
+    top:-0.01rem;
+}
+
+.moneyDetail>div>p:nth-child(2){
+    font-size:0.12rem;
+    color:#666;
 }
