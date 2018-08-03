@@ -13,3 +13,22 @@
     font-size:0.14rem;
     text-align: center  ;
 }
+
+.amtDetail{
+    font-size:0.14rem;
+    color:#333;
+    text-align: center;
+    height:0.55rem;
+    border-bottom:0.01rem solid #E5E5E5;
+    line-height:0.55rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amtDetail>span{
+    color:#FF4D4F;
+    font-size:0.24rem;
+    font-family: PingFangSC-Semibold;
+    margin-right:0.06rem;
+}
